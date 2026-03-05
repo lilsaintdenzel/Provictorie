@@ -34,6 +34,9 @@ const Footer: React.FC = () => {
               <li>
                 <a href="mailto:provictoireresearch@gmail.com" className="text-dark">provictoireresearch@gmail.com</a>
               </li>
+              <li>
+                <a href="tel:+2348141765889" className="text-dark">+234 814 176 5889</a>
+              </li>
             </ul>
           </div>
         </div>

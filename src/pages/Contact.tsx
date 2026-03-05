@@ -5,6 +5,10 @@ const Contact: React.FC = () => {
     <div>
       <h1>Contact Us</h1>
       <p>If you have any questions or would like to get involved, please reach out to us.</p>
+      <ul className="list-unstyled mb-4">
+        <li><strong>Email:</strong> <a href="mailto:provictoireresearch@gmail.com">provictoireresearch@gmail.com</a></li>
+        <li><strong>Phone:</strong> <a href="tel:+2348141765889">+234 814 176 5889</a></li>
+      </ul>
       
       <form>
         <div className="mb-3">
