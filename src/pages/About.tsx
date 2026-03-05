@@ -1,4 +1,5 @@
 import React from 'react';
+import chinnaOrish from '../assets/chinna-orish.jpg';
 
 const About: React.FC = () => {
   return (
@@ -117,7 +118,19 @@ const About: React.FC = () => {
       <h2 className="mt-4">Our Team</h2>
       <p>Our team comprises established experts and emerging researchers committed to excellence in toxicology, neuroscience, and One Health.</p>
       <h5>Executive Leadership</h5>
-      <ul>
+      <div className="row mt-3">
+        <div className="col-md-4 mb-3 text-center">
+          <img
+            src={chinnaOrish}
+            alt="Chinna Orish"
+            className="rounded-circle mb-2"
+            style={{ width: '150px', height: '150px', objectFit: 'cover' }}
+          />
+          <h6 className="mb-0"><strong>Chinna Orish</strong></h6>
+          <small className="text-muted">Co-Director</small>
+        </div>
+      </div>
+      <ul className="mt-2">
         <li><strong>Director:</strong> Orish Ebere</li>
         <li><strong>Co-Director:</strong> Chinna Orish</li>
       </ul>
