@@ -9,6 +9,7 @@ const Contact: React.FC = () => {
         <li><strong>Email:</strong> <a href="mailto:provictoireresearch@gmail.com">provictoireresearch@gmail.com</a></li>
         <li><strong>Phone:</strong> <a href="tel:+2348141765889">+234 814 176 5889</a></li>
         <li><strong>Facebook:</strong> <a href="https://www.facebook.com/people/Provictoire-Research-Organization/61554920686233/" target="_blank" rel="noreferrer">Provictoire Research Organization</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/provictoire-research-organisation/" target="_blank" rel="noreferrer">Provictoire Research Organisation</a></li>
       </ul>
       
       <form>

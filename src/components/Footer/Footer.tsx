@@ -40,6 +40,9 @@ const Footer: React.FC = () => {
               <li>
                 <a href="https://www.facebook.com/people/Provictoire-Research-Organization/61554920686233/" className="text-dark" target="_blank" rel="noreferrer">Facebook</a>
               </li>
+              <li>
+                <a href="https://www.linkedin.com/company/provictoire-research-organisation/" className="text-dark" target="_blank" rel="noreferrer">LinkedIn</a>
+              </li>
             </ul>
           </div>
         </div>
