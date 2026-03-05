@@ -35,6 +35,9 @@ const Navbar: React.FC = () => {
               <Link className={`nav-link${location.pathname === '/about' ? ' active' : ''}`} to="/about" onClick={close}>About</Link>
             </li>
             <li className="nav-item">
+              <Link className={`nav-link${location.pathname === '/people' ? ' active' : ''}`} to="/people" onClick={close}>People</Link>
+            </li>
+            <li className="nav-item">
               <Link className={`nav-link${location.pathname === '/news' ? ' active' : ''}`} to="/news" onClick={close}>News & Programs</Link>
             </li>
             <li className="nav-item">
