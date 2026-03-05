@@ -22,7 +22,7 @@
 }
 
 .navbar > .container {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .navbar-brand {
