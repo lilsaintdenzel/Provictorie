@@ -172,6 +172,9 @@ const News: React.FC = () => {
           style={{ width: '100%', display: 'block' }}
         />
       </a>
+      <p className="text-center text-muted mt-2" style={{ fontSize: '0.9rem' }}>
+        You can also scan the QR code on the flyer to access the application form.
+      </p>
 
       {/* ── Our Programs ── */}
       <hr className="my-5" />
