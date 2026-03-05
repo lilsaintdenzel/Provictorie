@@ -1,4 +1,5 @@
 import React from 'react';
+import isnFlyer from '../assets/isn-school-flyer.jpg';
 
 const News: React.FC = () => {
   return (
@@ -156,6 +157,21 @@ const News: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Flyer image strip */}
+      <a
+        href="https://forms.gle/cuS72DcHUUNx8Qw89"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="d-block mt-4"
+        style={{ borderRadius: '12px', overflow: 'hidden', boxShadow: '0 6px 24px rgba(0,0,0,0.18)' }}
+      >
+        <img
+          src={isnFlyer}
+          alt="ISN School 2026 — Call for Applications Flyer"
+          style={{ width: '100%', display: 'block' }}
+        />
+      </a>
 
       {/* ── Our Programs ── */}
       <hr className="my-5" />
