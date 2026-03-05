@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
             <h5 className="text-uppercase">Contact</h5>
             <ul className="list-unstyled mb-0">
               <li>
-                <a href="mailto:info@abdnetwork.com" className="text-dark">info@abdnetwork.com</a>
+                <a href="mailto:provictoireresearch@gmail.com" className="text-dark">provictoireresearch@gmail.com</a>
               </li>
             </ul>
           </div>
