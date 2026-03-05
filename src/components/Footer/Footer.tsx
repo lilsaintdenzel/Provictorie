@@ -37,6 +37,9 @@ const Footer: React.FC = () => {
               <li>
                 <a href="tel:+2348141765889" className="text-dark">+234 814 176 5889</a>
               </li>
+              <li>
+                <a href="https://www.facebook.com/people/Provictoire-Research-Organization/61554920686233/" className="text-dark" target="_blank" rel="noreferrer">Facebook</a>
+              </li>
             </ul>
           </div>
         </div>
