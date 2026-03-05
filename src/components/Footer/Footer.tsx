@@ -6,9 +6,9 @@ const Footer: React.FC = () => {
       <div className="container p-4">
         <div className="row">
           <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <h5 className="text-uppercase">Provictoire Research Organisation</h5>
+            <h5 className="text-uppercase">Provictoire Research Hub (PRH)</h5>
             <p>
-              Advancing research through collaboration and innovation.
+              Empowering Africa's Next Generation of Scientists through neuroscience, toxicology, and One Health research.
             </p>
           </div>
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
@@ -18,10 +18,10 @@ const Footer: React.FC = () => {
                 <a href="/about" className="text-dark">About</a>
               </li>
               <li>
-                <a href="/news" className="text-dark">News</a>
+                <a href="/news" className="text-dark">News & Programs</a>
               </li>
               <li>
-                <a href="/resources" className="text-dark">Resources</a>
+                <a href="/resources" className="text-dark">Research</a>
               </li>
               <li>
                 <a href="/contact" className="text-dark">Contact</a>
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © {new Date().getFullYear()} Provictoire Research Organisation
+        © {new Date().getFullYear()} Provictoire Research Hub (PRH)
       </div>
     </footer>
   );
