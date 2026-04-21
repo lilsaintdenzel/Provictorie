@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
       <div className="container-fluid py-5">
         <h1 className="display-5 fw-bold">Provictoire Research Hub (PRH)</h1>
         <p className="col-md-8 fs-4">
-          Empowering Africa's Next Generation of Scientists
+          Dedicated to empowering the next generation of African scientists through advanced training and research in neuroscience, molecular biology, and toxicology.
         </p>
         <a className="btn btn-primary btn-lg" href="/about">Learn More</a>
       </div>
