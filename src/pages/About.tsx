@@ -1,4 +1,5 @@
 import React from 'react';
+import trendLogo from '../assets/trend-logo.jpg';
 
 const About: React.FC = () => {
   return (
@@ -113,6 +114,9 @@ const About: React.FC = () => {
         <li>Women in Neuroscience (WIN)</li>
         <li>TReND inAfricA</li>
       </ul>
+      <div className="d-flex flex-wrap gap-4 align-items-center mt-3">
+        <img src={trendLogo} alt="TReND inAfricA" style={{ height: '100px', objectFit: 'contain' }} />
+      </div>
 
     </div>
   );
