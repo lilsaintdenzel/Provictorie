@@ -176,6 +176,19 @@ const News: React.FC = () => {
         You can also scan the QR code on the flyer to access the application form.
       </p>
 
+      {/* ── News & Gallery ── */}
+      <hr className="my-5" />
+      <h2>News &amp; Gallery</h2>
+      <div className="card mt-3 mb-4">
+        <div className="card-body">
+          <span className="badge mb-2" style={{ backgroundColor: '#A64D79', color: '#fff' }}>Grant Announcement</span>
+          <h4 className="card-title">Grant Support from The Company of Biologists</h4>
+          <p className="card-text">
+            We are pleased to acknowledge grant support from The Company of Biologists in support of our ISN School scheduled for October.
+          </p>
+        </div>
+      </div>
+
       {/* ── Our Programs ── */}
       <hr className="my-5" />
       <h2>Our Programs</h2>

@@ -1,6 +1,5 @@
 import React from 'react';
 import trendLogo from '../assets/trend-logo.jpg';
-import ynanLogo from '../assets/ynan-logo.jpg';
 
 const About: React.FC = () => {
   return (
@@ -10,14 +9,31 @@ const About: React.FC = () => {
         Provictoire Research Hub (PRH) is dedicated to advancing neuroscience, toxicology, and molecular biology research in Africa. Using low-cost, accessible models such as <em>Drosophila melanogaster</em>, we equip young scientists with knowledge, skills, and ethical frameworks to address complex health and environmental challenges locally and globally.
       </p>
 
+      {/* Partners — featured prominently */}
+      <h2 className="mt-4">Our Partners</h2>
+      <div className="row mt-3">
+        <div className="col-md-6 mb-3">
+          <h5>Supporters</h5>
+          <ul>
+            <li>International Society for Neurochemistry</li>
+            <li>The Company of Biologists</li>
+          </ul>
+        </div>
+        <div className="col-md-6 mb-3">
+          <h5>Collaborators</h5>
+          <ul>
+            <li>TReND in Africa</li>
+          </ul>
+        </div>
+      </div>
+      <div className="d-flex flex-wrap gap-4 align-items-center mb-4">
+        <img src={trendLogo} alt="TReND inAfricA" style={{ height: '80px', objectFit: 'contain' }} />
+      </div>
+
       <h2 className="mt-4">Our Mission</h2>
-      <p>To close the research and infrastructure gap between Africa and the global North by:</p>
-      <ul>
-        <li>Providing high-quality education in molecular biology, neuroscience, bioinformatics, and computational biology</li>
-        <li>Delivering hands-on research training and early exposure to laboratory techniques</li>
-        <li>Offering mentorship, guidance, and career development</li>
-        <li>Creating opportunities for interdisciplinary collaboration and global engagement</li>
-      </ul>
+      <p>
+        To close the research and infrastructure gap between Africa and the global North by providing high-quality education, hands-on training, mentorship, and global collaboration opportunities.
+      </p>
 
       <h2 className="mt-4">Our Story</h2>
       <p>
@@ -106,20 +122,6 @@ const About: React.FC = () => {
           </div>
         </div>
       </div>
-
-      <h2 className="mt-4">Our Partners & Collaborators</h2>
-      <p>We collaborate with leading organizations, universities, research institutes, and international partners to drive innovation, strengthen scientific capacity, and promote impactful research across Africa.</p>
-      <ul>
-        <li>Brain Wellness Initiative (BWI)</li>
-        <li>Youth Neuroscience Association of Nigeria (YNAN)</li>
-        <li>Women in Neuroscience (WIN)</li>
-        <li>TReND inAfricA</li>
-      </ul>
-      <div className="d-flex flex-wrap gap-4 align-items-center mt-3">
-        <img src={trendLogo} alt="TReND inAfricA" style={{ height: '100px', objectFit: 'contain' }} />
-        <img src={ynanLogo} alt="Youth Neuroscience Association of Nigeria" style={{ height: '100px', objectFit: 'contain' }} />
-      </div>
-
     </div>
   );
 };
