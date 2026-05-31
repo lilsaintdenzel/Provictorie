@@ -1,5 +1,7 @@
 import React from 'react';
 import trendLogo from '../assets/trend-logo.jpg';
+import isnLogo from '../assets/isn-logo.jpg';
+import cobLogo from '../assets/cob-logo.jpg';
 
 const About: React.FC = () => {
   return (
@@ -26,25 +28,15 @@ const About: React.FC = () => {
       <div className="row mb-4">
         <div className="col-sm-6 col-md-4 mb-3">
           <div className="card h-100 border text-center p-3 d-flex align-items-center justify-content-center" style={{ minHeight: '120px' }}>
-            <div
-              className="rounded d-flex align-items-center justify-content-center mb-2"
-              style={{ width: '70px', height: '50px', backgroundColor: '#d32f2f' }}
-            >
-              <span className="fw-bold text-white" style={{ fontSize: '1.1rem', letterSpacing: '1px' }}>ISN</span>
-            </div>
-            <p className="mb-0 fw-semibold" style={{ fontSize: '0.9rem' }}>International Society for Neurochemistry</p>
+            <img src={isnLogo} alt="International Society for Neurochemistry" style={{ maxHeight: '70px', maxWidth: '100%', objectFit: 'contain' }} />
+            <p className="mb-0 mt-2 fw-semibold" style={{ fontSize: '0.9rem' }}>International Society for Neurochemistry</p>
             <small className="text-muted">e.g. Career Development Grants (CDG)</small>
           </div>
         </div>
         <div className="col-sm-6 col-md-4 mb-3">
           <div className="card h-100 border text-center p-3 d-flex align-items-center justify-content-center" style={{ minHeight: '120px' }}>
-            <div
-              className="rounded d-flex align-items-center justify-content-center mb-2"
-              style={{ width: '70px', height: '50px', backgroundColor: '#2e7d32' }}
-            >
-              <span className="fw-bold text-white" style={{ fontSize: '0.65rem', textAlign: 'center', lineHeight: 1.2 }}>The Company<br />of Biologists</span>
-            </div>
-            <p className="mb-0 fw-semibold" style={{ fontSize: '0.9rem' }}>The Company of Biologists</p>
+            <img src={cobLogo} alt="The Company of Biologists" style={{ maxHeight: '70px', maxWidth: '100%', objectFit: 'contain' }} />
+            <p className="mb-0 mt-2 fw-semibold" style={{ fontSize: '0.9rem' }}>The Company of Biologists</p>
           </div>
         </div>
       </div>
