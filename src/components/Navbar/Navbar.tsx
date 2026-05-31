@@ -35,13 +35,19 @@ const Navbar: React.FC = () => {
               <Link className={`nav-link${location.pathname === '/about' ? ' active' : ''}`} to="/about" onClick={close}>About</Link>
             </li>
             <li className="nav-item">
-              <Link className={`nav-link${location.pathname === '/people' ? ' active' : ''}`} to="/people" onClick={close}>People</Link>
+              <Link className={`nav-link${location.pathname === '/people' ? ' active' : ''}`} to="/people" onClick={close}>Team</Link>
             </li>
             <li className="nav-item">
               <Link className={`nav-link${location.pathname === '/news' ? ' active' : ''}`} to="/news" onClick={close}>News & Programs</Link>
             </li>
             <li className="nav-item">
+              <Link className={`nav-link${location.pathname === '/gallery' ? ' active' : ''}`} to="/gallery" onClick={close}>Gallery</Link>
+            </li>
+            <li className="nav-item">
               <Link className={`nav-link${location.pathname === '/resources' ? ' active' : ''}`} to="/resources" onClick={close}>Research</Link>
+            </li>
+            <li className="nav-item">
+              <Link className={`nav-link${location.pathname === '/equipment' ? ' active' : ''}`} to="/equipment" onClick={close}>Resources & Equipment</Link>
             </li>
             <li className="nav-item">
               <Link className={`nav-link${location.pathname === '/contact' ? ' active' : ''}`} to="/contact" onClick={close}>Contact</Link>

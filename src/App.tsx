@@ -8,6 +8,8 @@ import News from './pages/News';
 import Resources from './pages/Resources';
 import Contact from './pages/Contact';
 import People from './pages/People';
+import Gallery from './pages/Gallery';
+import Equipment from './pages/Equipment';
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/people" element={<People />} />
           <Route path="/news" element={<News />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/equipment" element={<Equipment />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
