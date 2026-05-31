@@ -9,25 +9,44 @@ const About: React.FC = () => {
         Provictoire Research Hub (PRH) is dedicated to advancing neuroscience, toxicology, and molecular biology research in Africa. Using low-cost, accessible models such as <em>Drosophila melanogaster</em>, we equip young scientists with knowledge, skills, and ethical frameworks to address complex health and environmental challenges locally and globally.
       </p>
 
-      {/* Partners — featured prominently */}
-      <h2 className="mt-4">Our Partners</h2>
-      <div className="row mt-3">
-        <div className="col-md-6 mb-3">
-          <h5>Supporters</h5>
-          <ul>
-            <li>International Society for Neurochemistry</li>
-            <li>The Company of Biologists</li>
-          </ul>
-        </div>
-        <div className="col-md-6 mb-3">
-          <h5>Collaborators</h5>
-          <ul>
-            <li>TReND in Africa</li>
-          </ul>
+      {/* Collaborators & Funders */}
+      <h2 className="mt-4">Collaborators &amp; Funders</h2>
+
+      <h5 className="mt-4 mb-3 text-muted text-uppercase" style={{ letterSpacing: '1px', fontSize: '0.82rem' }}>Collaborators</h5>
+      <div className="row mb-4">
+        <div className="col-sm-6 col-md-4 mb-3">
+          <div className="card h-100 border text-center p-3 d-flex align-items-center justify-content-center" style={{ minHeight: '120px' }}>
+            <img src={trendLogo} alt="TReND in Africa" style={{ maxHeight: '70px', maxWidth: '100%', objectFit: 'contain' }} />
+            <p className="mb-0 mt-2 fw-semibold" style={{ fontSize: '0.9rem' }}>TReND in Africa</p>
+          </div>
         </div>
       </div>
-      <div className="d-flex flex-wrap gap-4 align-items-center mb-4">
-        <img src={trendLogo} alt="TReND inAfricA" style={{ height: '80px', objectFit: 'contain' }} />
+
+      <h5 className="mt-3 mb-3 text-muted text-uppercase" style={{ letterSpacing: '1px', fontSize: '0.82rem' }}>Funders</h5>
+      <div className="row mb-4">
+        <div className="col-sm-6 col-md-4 mb-3">
+          <div className="card h-100 border text-center p-3 d-flex align-items-center justify-content-center" style={{ minHeight: '120px' }}>
+            <div
+              className="rounded d-flex align-items-center justify-content-center mb-2"
+              style={{ width: '70px', height: '50px', backgroundColor: '#d32f2f' }}
+            >
+              <span className="fw-bold text-white" style={{ fontSize: '1.1rem', letterSpacing: '1px' }}>ISN</span>
+            </div>
+            <p className="mb-0 fw-semibold" style={{ fontSize: '0.9rem' }}>International Society for Neurochemistry</p>
+            <small className="text-muted">e.g. Career Development Grants (CDG)</small>
+          </div>
+        </div>
+        <div className="col-sm-6 col-md-4 mb-3">
+          <div className="card h-100 border text-center p-3 d-flex align-items-center justify-content-center" style={{ minHeight: '120px' }}>
+            <div
+              className="rounded d-flex align-items-center justify-content-center mb-2"
+              style={{ width: '70px', height: '50px', backgroundColor: '#2e7d32' }}
+            >
+              <span className="fw-bold text-white" style={{ fontSize: '0.65rem', textAlign: 'center', lineHeight: 1.2 }}>The Company<br />of Biologists</span>
+            </div>
+            <p className="mb-0 fw-semibold" style={{ fontSize: '0.9rem' }}>The Company of Biologists</p>
+          </div>
+        </div>
       </div>
 
       <h2 className="mt-4">Our Mission</h2>
