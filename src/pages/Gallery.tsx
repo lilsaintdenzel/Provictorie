@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import gallery1 from '../assets/gallery-1.jpg';
 import gallery2 from '../assets/gallery-2.jpg';
 import gallery3 from '../assets/gallery-3.jpg';
@@ -8,6 +8,11 @@ import gallery5 from '../assets/gallery-5.jpg';
 const images = [gallery1, gallery2, gallery3, gallery4, gallery5];
 
 const Gallery: React.FC = () => {
+  const [active, setActive] = useState(0);
+
+  const prev = () => setActive((i) => (i - 1 + images.length) % images.length);
+  const next = () => setActive((i) => (i + 1) % images.length);
+
   return (
     <div>
       <h1>News &amp; Gallery</h1>
@@ -26,17 +31,58 @@ const Gallery: React.FC = () => {
       </div>
 
       <h2 className="mt-4 mb-3">Photo Gallery</h2>
-      <div className="row g-3">
-        {images.map((src, i) => (
-          <div key={i} className="col-sm-6 col-md-4">
-            <img
-              src={src}
-              alt={`Gallery photo ${i + 1}`}
-              className="img-fluid rounded w-100"
-              style={{ height: '220px', objectFit: 'cover' }}
+      <div id="galleryCarousel" className="carousel slide" data-bs-ride="false">
+        <div className="carousel-inner rounded" style={{ maxHeight: '480px', backgroundColor: '#000' }}>
+          {images.map((src, i) => (
+            <div key={i} className={`carousel-item${i === active ? ' active' : ''}`}>
+              <img
+                src={src}
+                className="d-block mx-auto"
+                alt={`Gallery photo ${i + 1}`}
+                style={{ maxHeight: '480px', width: '100%', objectFit: 'contain' }}
+              />
+            </div>
+          ))}
+        </div>
+
+        <button
+          className="carousel-control-prev"
+          type="button"
+          onClick={prev}
+          style={{ width: '8%' }}
+        >
+          <span className="carousel-control-prev-icon" aria-hidden="true" />
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button
+          className="carousel-control-next"
+          type="button"
+          onClick={next}
+          style={{ width: '8%' }}
+        >
+          <span className="carousel-control-next-icon" aria-hidden="true" />
+          <span className="visually-hidden">Next</span>
+        </button>
+
+        <div className="carousel-indicators" style={{ position: 'static', marginTop: '10px' }}>
+          {images.map((_, i) => (
+            <button
+              key={i}
+              type="button"
+              onClick={() => setActive(i)}
+              style={{
+                width: '10px',
+                height: '10px',
+                borderRadius: '50%',
+                backgroundColor: i === active ? '#A64D79' : '#ccc',
+                border: 'none',
+                margin: '0 4px',
+                padding: 0,
+              }}
+              aria-label={`Slide ${i + 1}`}
             />
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
