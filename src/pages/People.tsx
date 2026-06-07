@@ -47,6 +47,25 @@ const People: React.FC = () => {
           <h6 className="mb-0"><strong>Emmanuel Eson</strong></h6>
           <small className="text-muted">Researcher</small>
         </div>
+        <div className="col-md-4 mb-4 text-center">
+          <div
+            className="rounded-circle d-flex align-items-center justify-content-center mx-auto mb-2"
+            style={{
+              width: '150px',
+              height: '150px',
+              backgroundColor: '#A64D79',
+              color: '#fff',
+              fontSize: '2rem',
+              fontWeight: 'bold',
+            }}
+          >
+            SM
+          </div>
+          <h6 className="mb-0"><strong>Shradha Menon</strong></h6>
+          <small className="text-muted d-block">Independent Researcher</small>
+          <small className="text-muted d-block">Dubai, United Arab Emirates</small>
+          <small className="text-muted d-block" style={{ fontSize: '0.75rem' }}>MSc Molecular Biology &amp; Human Genetics, Manipal Academy of Higher Education Dubai</small>
+        </div>
       </div>
 
       <h2 className="mt-4">Board of Directors</h2>
