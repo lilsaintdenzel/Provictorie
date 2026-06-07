@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import gallery1 from '../assets/gallery-1.jpg';
 import gallery2 from '../assets/gallery-2.jpg';
 import gallery3 from '../assets/gallery-3.jpg';
@@ -12,6 +12,11 @@ const Gallery: React.FC = () => {
 
   const prev = () => setActive((i) => (i - 1 + images.length) % images.length);
   const next = () => setActive((i) => (i + 1) % images.length);
+
+  useEffect(() => {
+    const timer = setInterval(next, 3000);
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <div>
