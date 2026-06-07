@@ -1,4 +1,5 @@
 import React from 'react';
+import orishEbere from '../assets/orish-ebere.jpg';
 import chinnaOrish from '../assets/chinna-orish.jpg';
 import emmanuelEson from '../assets/emmanuel-eson.jpg';
 
@@ -13,19 +14,12 @@ const People: React.FC = () => {
       <h2 className="mt-4">Leadership</h2>
       <div className="row mt-3">
         <div className="col-md-4 mb-4 text-center">
-          <div
-            className="rounded-circle d-flex align-items-center justify-content-center mx-auto mb-2"
-            style={{
-              width: '150px',
-              height: '150px',
-              backgroundColor: '#A64D79',
-              color: '#fff',
-              fontSize: '2rem',
-              fontWeight: 'bold',
-            }}
-          >
-            OE
-          </div>
+          <img
+            src={orishEbere}
+            alt="Orish Ebere"
+            className="rounded-circle mb-2"
+            style={{ width: '150px', height: '150px', objectFit: 'cover' }}
+          />
           <h6 className="mb-0"><strong>Orish Ebere</strong></h6>
           <small className="text-muted">Executive Director</small>
         </div>
