@@ -1,5 +1,6 @@
 import React from 'react';
 import trendLogo from '../assets/trend-logo.jpg';
+import sfnLogo from '../assets/sfn-logo.jpg';
 import isnLogo from '../assets/isn-logo.jpg';
 import cobLogo from '../assets/cob-logo.jpg';
 
@@ -20,6 +21,12 @@ const About: React.FC = () => {
           <div className="card h-100 border text-center p-3 d-flex align-items-center justify-content-center" style={{ minHeight: '120px' }}>
             <img src={trendLogo} alt="TReND in Africa" style={{ maxHeight: '70px', maxWidth: '100%', objectFit: 'contain' }} />
             <p className="mb-0 mt-2 fw-semibold" style={{ fontSize: '0.9rem' }}>TReND in Africa</p>
+          </div>
+        </div>
+        <div className="col-sm-6 col-md-4 mb-3">
+          <div className="card h-100 border text-center p-3 d-flex align-items-center justify-content-center" style={{ minHeight: '120px' }}>
+            <img src={sfnLogo} alt="SfN" style={{ maxHeight: '70px', maxWidth: '100%', objectFit: 'contain' }} />
+            <p className="mb-0 mt-2 fw-semibold" style={{ fontSize: '0.9rem' }}>SfN</p>
           </div>
         </div>
       </div>
