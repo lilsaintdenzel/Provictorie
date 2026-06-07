@@ -2,6 +2,7 @@ import React from 'react';
 import orishEbere from '../assets/orish-ebere.jpg';
 import chinnaOrish from '../assets/chinna-orish.jpg';
 import emmanuelEson from '../assets/emmanuel-eson.jpg';
+import emmanuelFrank from '../assets/emmanuel-frank.jpg';
 
 const People: React.FC = () => {
   return (
@@ -48,6 +49,20 @@ const People: React.FC = () => {
           <small className="text-muted d-block">Independent Researcher</small>
           <small className="text-muted d-block">Dubai, United Arab Emirates</small>
           <small className="text-muted d-block" style={{ fontSize: '0.75rem' }}>MSc Molecular Biology &amp; Human Genetics, Manipal Academy of Higher Education Dubai</small>
+        </div>
+      </div>
+
+      <h2 className="mt-4">Research Interns</h2>
+      <div className="row mt-3">
+        <div className="col-md-4 mb-4 text-center">
+          <img
+            src={emmanuelFrank}
+            alt="Emmanuel Frank"
+            className="rounded-circle mb-2"
+            style={{ width: '150px', height: '150px', objectFit: 'cover', objectPosition: 'top center' }}
+          />
+          <h6 className="mb-0"><strong>Emmanuel Frank</strong></h6>
+          <small className="text-muted">Research Intern</small>
         </div>
       </div>
 
