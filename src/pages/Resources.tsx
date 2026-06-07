@@ -5,7 +5,7 @@ const Resources: React.FC = () => {
     <div>
       <h1>Research</h1>
       <p className="lead">
-        PRH conducts multidisciplinary research integrating neuroscience, toxicology, computational science, and One Health to address critical health and environmental challenges in Africa.
+        Provictoire Research Hub (PRH) is a multidisciplinary research and innovation center dedicated to advancing knowledge in neuroscience, toxicology, molecular biology, bioinformatics, computational neuroscience, and One Health. Through the integration of experimental and computational sciences, PRH develops innovative solutions to pressing health and environmental challenges across Africa, while fostering scientific excellence, research training, and sustainable impact.
       </p>
 
       <h2 className="mt-4">Our Research Pillars</h2>
