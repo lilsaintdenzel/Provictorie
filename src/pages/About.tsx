@@ -25,8 +25,8 @@ const About: React.FC = () => {
         </div>
         <div className="col-sm-6 col-md-4 mb-3">
           <div className="card h-100 border text-center p-3 d-flex align-items-center justify-content-center" style={{ minHeight: '120px' }}>
-            <img src={sfnLogo} alt="SfN" style={{ maxHeight: '70px', maxWidth: '100%', objectFit: 'contain' }} />
-            <p className="mb-0 mt-2 fw-semibold" style={{ fontSize: '0.9rem' }}>SfN</p>
+            <img src={sfnLogo} alt="Society for Neuroscience" style={{ maxHeight: '90px', maxWidth: '100%', objectFit: 'contain', imageRendering: 'auto' }} />
+            <p className="mb-0 mt-2 fw-semibold" style={{ fontSize: '0.9rem' }}>Society for Neuroscience</p>
           </div>
         </div>
       </div>
