@@ -4,6 +4,7 @@ import chinnaOrish from '../assets/chinna-orish.jpg';
 import emmanuelEson from '../assets/emmanuel-eson.jpg';
 import emmanuelFrank from '../assets/emmanuel-frank.jpg';
 import harmonyOwhor from '../assets/harmony-owhor.jpg';
+import luckyFavour from '../assets/lucky-favour.jpg';
 
 const People: React.FC = () => {
   return (
@@ -73,6 +74,16 @@ const People: React.FC = () => {
             style={{ width: '150px', height: '150px', objectFit: 'cover', objectPosition: 'top center' }}
           />
           <h6 className="mb-0"><strong>Harmony Chidera Owhor</strong></h6>
+          <small className="text-muted">Research Intern</small>
+        </div>
+        <div className="col-md-4 mb-4 text-center">
+          <img
+            src={luckyFavour}
+            alt="Lucky Boo Favour"
+            className="rounded-circle mb-2"
+            style={{ width: '150px', height: '150px', objectFit: 'cover', objectPosition: 'top center' }}
+          />
+          <h6 className="mb-0"><strong>Lucky Boo Favour</strong></h6>
           <small className="text-muted">Research Intern</small>
         </div>
       </div>
