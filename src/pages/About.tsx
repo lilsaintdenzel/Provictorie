@@ -14,7 +14,7 @@ const About: React.FC = () => {
       {/* Collaborators & Funders */}
       <h2 className="mt-4">Collaborators &amp; Funders</h2>
 
-      <h5 className="mt-4 mb-3 text-muted text-uppercase" style={{ letterSpacing: '1px', fontSize: '0.82rem' }}>Collaborators</h5>
+      <h5 className="mt-4 mb-3 text-muted text-uppercase" style={{ letterSpacing: '1px', fontSize: '0.82rem' }}>Partners</h5>
       <div className="row mb-4">
         <div className="col-sm-6 col-md-4 mb-3">
           <div className="card h-100 border text-center p-3 d-flex align-items-center justify-content-center" style={{ minHeight: '120px' }}>
