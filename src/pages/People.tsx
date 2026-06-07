@@ -18,7 +18,7 @@ const People: React.FC = () => {
             src={orishEbere}
             alt="Orish Ebere"
             className="rounded-circle mb-2"
-            style={{ width: '150px', height: '150px', objectFit: 'cover' }}
+            style={{ width: '150px', height: '150px', objectFit: 'cover', objectPosition: 'top center' }}
           />
           <h6 className="mb-0"><strong>Orish Ebere</strong></h6>
           <small className="text-muted">Executive Director</small>
