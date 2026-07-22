@@ -99,7 +99,7 @@ const People: React.FC = () => {
             style={{ width: '150px', height: '150px', objectFit: 'cover', objectPosition: 'top center' }}
           />
           <h6 className="mb-0"><strong>Dr. Caroline Palavicino-Maggio</strong></h6>
-          <small className="text-muted">Board of Directors</small>
+          <small className="text-muted">Board of Director</small>
         </div>
       </div>
     </div>
