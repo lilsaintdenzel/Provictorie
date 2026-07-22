@@ -5,6 +5,7 @@ import emmanuelEson from '../assets/emmanuel-eson.jpg';
 import emmanuelFrank from '../assets/emmanuel-frank.jpg';
 import harmonyOwhor from '../assets/harmony-owhor.jpg';
 import luckyFavour from '../assets/lucky-favour.jpg';
+import carolinePalavicino from '../assets/caroline-palavicino.jpg';
 
 const People: React.FC = () => {
   return (
@@ -89,7 +90,18 @@ const People: React.FC = () => {
       </div>
 
       <h2 className="mt-4">Board of Directors</h2>
-      <p className="text-muted">Board member information coming soon.</p>
+      <div className="row mt-3">
+        <div className="col-md-4 mb-4 text-center">
+          <img
+            src={carolinePalavicino}
+            alt="Dr. Caroline Palavicino-Maggio"
+            className="rounded-circle mb-2"
+            style={{ width: '150px', height: '150px', objectFit: 'cover', objectPosition: 'top center' }}
+          />
+          <h6 className="mb-0"><strong>Dr. Caroline Palavicino-Maggio</strong></h6>
+          <small className="text-muted">Board of Directors</small>
+        </div>
+      </div>
     </div>
   );
 };
